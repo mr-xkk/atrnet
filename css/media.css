@@ -1,0 +1,113 @@
+@media screen and (max-width:1200px){
+    .nav .inner ul li{
+        display: none;
+    }
+    .one .nav .inner .block{
+        display: block;
+    }
+    .one .nav .inner li .fa-bars{
+        font-size: 45px;
+        display: inline-block;
+        line-height: 76px;
+        height: 76px;
+        display: block;
+    }
+    .find h2:before{
+        content: '';
+        width:300px;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        left:37%;top:100px;
+    }
+}
+@media screen and (max-width:992px){
+    .one .nav .inner ul {
+        float: left;
+        padding-left: 60%;
+    }
+    .two .services {
+        width: 100%;
+        height: 354px;
+        margin: 0 auto;
+        border-top: 1px solid #ccc;
+        margin-top: 138px;
+        position: relative;
+        padding-left: 30px
+    }
+    .two .services .idea {
+        width: 203px;
+        height: 203px;
+        border: 1px solid #b5b5b5;
+        border-radius: 50%;
+        float: left;
+        margin-top: 91px;
+        text-align: center;
+        margin-right: 30px;
+        display: block;
+    }
+    .two .services .idea p {
+        padding: 0 20px;
+        font-size: 2px;
+    }
+    .two .works {
+        width: 100%;
+    }
+    .two .works .nexus {
+        width: 100%;
+        margin-left: -2%;
+    }
+    .nexus .lock .set {
+        width: 100%;
+        bottom: 53px;
+    }
+    .two .works .nexus .lock {
+        width: 30%;
+        margin: 0 15px 15px 0;
+    }
+    .two .works .nexus .lock img {
+        width: 100%;
+    }
+    .three .test {
+        width: 100%;
+    }
+    .three .test h3:before {
+        left: -9%;
+    }
+    .three .test h3:after {
+        right: -8%;
+    }
+    .hey .about {
+        width: 100%;
+    }
+    .hey .about .me {
+        width: 33%;
+        padding-left: 7%;
+    }
+    .hey .about .me .name {
+        width: 100%;
+    }
+    .hey .about .me .email {
+        width: 100%;
+    }
+    .hey .about .me textarea {
+        width: 104%;
+    }
+    footer .innerf {
+        width: 100%;
+    }
+    footer .innerf .in-right {
+        float: left;
+        padding-left: 24%;
+    }
+}
+@media screen and (max-width:720px){
+    .nexus .lock .set{
+        height: 100%;
+    }
+    .hey .about .me{
+        padding: 0;
+        padding-left: 13%
+    }
+
+}

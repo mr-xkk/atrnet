@@ -1,0 +1,70 @@
+.about_nav li a:hover{
+    color:#d26f84;
+}
+.activity{
+    background: url(../images/timg3.jpg) center/cover;
+}
+.img{
+    width:100%;
+}
+.act_text{
+    min-height: 50%;
+    padding-top: 5%;
+}
+.act_text_1{
+    min-height:50%;
+    width:50%;
+    padding-left: 25%;
+}
+.act_move{
+    min-height:50%;
+    width:50%;
+    padding-left: 25%;
+    margin-bottom: 5%;
+
+}
+.act_move a{
+    display: block;
+    width:100px;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: #000;
+    text-align: center;
+    color:#f0f0f0;
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+.act_move a:hover{
+    background: #f0f0f0;
+    color:#000;
+}
+.act_text_1 h2{
+    font-weight: normal;
+    line-height: 27px;
+    height: 50px;
+    color:#777;
+}
+.act_text_1 .date{
+    line-height: 20px;
+    height: 20px;
+}
+.act_text_1 p{
+    font-size: 12px;
+    line-height: 12px;
+    color:#686868;
+    letter-spacing: 1px;
+}
+.act_read{
+    display: block;
+    text-align: right;
+    color:#809fbf;
+    font-size:12px;
+    line-height: 30px;
+}
+.p_move{
+    font:14px/30px "微软雅黑";
+    color:#777;
+    letter-spacing: 1px;
+    text-indent: 2em;
+}

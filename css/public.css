@@ -1,0 +1,112 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,input,option,textarea,dl,dt,dd{
+    margin:0;padding: 0;
+}
+ul{
+    list-style: none;
+}
+img,form,input{
+    border:none;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: Arial,"微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear:both;
+}
+.clearfix:after{
+    content:'200B';
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear:both;
+}
+/*IE6.7*/
+.clearfix{*zoom:1;}
+footer{
+    min-height: 10%;
+    background-color: #000;
+}
+footer a{
+    color:#e66f69;
+}
+footer .innerf{
+    width:50%;
+    margin: 0 auto;
+    color:#fff;
+}
+footer .innerf span{
+    display: block;
+    float:left;
+    line-height: 80px;
+    height: 80px;
+}
+footer .innerf span i{
+    margin-right: 4px;
+}
+footer .innerf .in-right{
+    float:right;
+    line-height: 20px;
+    padding-top: 20px;
+}
+#content{
+    height: 100%;
+}
+.about{
+    background: url(../images/timg9.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% -50px;
+    height:70%;
+    width:100%;
+}
+.about_nav{
+    margin:0 auto;
+    padding-top: 10%;
+    max-width:50%;
+    transition: all 0.5s;
+}
+.about_nav li{
+    float:left;
+    width:20%;
+    text-align: center;
+}
+.about_nav li a{
+    color: #d8d8d8;
+}
+.about_logo{
+    margin: 0 auto;
+    width:200px;
+    height: 127px;
+    padding-top: 200px;
+}
+.about_logo>img{
+    vertical-align: middle;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.index_top{
+    position: fixed;
+    right: 2%;
+    bottom:2%;
+    display: block;
+    border-radius: 5px;
+    width:50px;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    background: #888;
+    color:#fff;
+    transition: all .5s;
+    opacity: 0;
+}
+.index_top_on{
+    opacity: 1;
+}
